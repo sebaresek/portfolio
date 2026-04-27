@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './NavBar.css';
 import Social from '../Social/Social';
-import { Link } from 'react-router-dom';
 
 
 const NavBar = () => {

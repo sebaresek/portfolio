@@ -37,19 +37,19 @@ import './Skills.css';
                           <p>Algunas de las herramientas que más utilizo en mis trabajos incluyen bases de datos SQL, el framework React, el lenguaje de programación JavaScript y el entorno de ejecución Node.js con el framework Express.</p>
                           <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                               <div className="item">
-                                  <img src={meter1} alt="Image" />
+                                  <img src={meter1} alt="Image1" />
                                   <h5>SQL</h5>
                               </div>
                               <div className="item">
-                                  <img src={meter2} alt="Image" />
+                                  <img src={meter2} alt="Image2" />
                                   <h5>React</h5>
                               </div>
                               <div className="item">
-                                  <img src={meter3} alt="Image" />
+                                  <img src={meter3} alt="Image3" />
                                   <h5>JavaScript</h5>
                               </div>
                               <div className="item">
-                                  <img src={meter1} alt="Image" />
+                                  <img src={meter1} alt="Image4" />
                                   <h5>Node - Express</h5>
                               </div>
                           </Carousel>
