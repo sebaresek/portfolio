@@ -1,6 +1,6 @@
-import projImg2 from "../../Assets/pokemon.png";
-import projImg3 from "../../Assets/prestamos.png";
-import projImg1 from "../../Assets/rickandmorty.png";
+import projImg2 from "../../Assets/crediplus.png";
+import projImg3 from "../../Assets/nutripoint.png";
+import projImg1 from "../../Assets/portfolio.png";
 import React from 'react';
 import './Projects.css'
 import Project from './Project';
@@ -8,22 +8,22 @@ import Project from './Project';
 export const Projects = () => {
   const projects = [
     {
-      title: 'Proyecto Universitario',
+      title: 'Proyecto de Prueba',
       description: 'Desarrollo & Diseño',
       imgUrl: projImg1,
-      link: 'https://rick-and-morty-tau-ten.vercel.app/',
+      link: 'https://portafolio-kappa-indol.vercel.app/',
     },
     {
-      title: 'Proyecto Universitario',
+      title: 'Proyecto Propio',
       description: 'Desarrollo & Diseño',
       imgUrl: projImg2,
-      link: 'https://pokemons-rose.vercel.app/',
+      link: 'https://crediplus.site/home',
     },
     {
-      title: 'Inicio de Negocio',
+      title: 'Proyecto Propio',
       description: 'Desarrollo & Diseño',
       imgUrl: projImg3,
-      link: 'https://www.pretamos.online/',
+      link: 'https://nutripoint.site/',
     },
   ];
 
