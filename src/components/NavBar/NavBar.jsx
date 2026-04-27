@@ -56,24 +56,24 @@ const NavBar = () => {
 
         {(showMenuButton && menuOpen) || !showMenuButton ? (
           <div className='buttons'>
-                    <button onClick={() => scrollToSection('inicio')}> Inicio 
+                    <a onClick={() => scrollToSection('inicio')}> Inicio 
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                    </button>         
-                    <button> Proyectos 
+                    </a>         
+                    <a> Proyectos 
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                    </button>
-                    <button onClick={() => scrollToSection('habilidades')}> Habilidades 
+                    </a>
+                    <a onClick={() => scrollToSection('habilidades')}> Habilidades 
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                    </button> 
+                    </a> 
           </div>
         ) : null}
       </div>
