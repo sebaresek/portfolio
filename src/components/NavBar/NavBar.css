@@ -19,35 +19,42 @@
     margin-right: 22em;
   }
 
-  .buttons a{
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    font-weight: bold;
-    color: #fff;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: .5s;
-    margin-top: 20px;
-    margin-right: 20px;
-    letter-spacing: 3px;
-    z-index: 1;
-  }
-
-.buttons a:hover {
+.buttons button {
+  /* --- RESET DE BOTÓN (Esto arregla lo que ves en la imagen 1) --- */
+  background: transparent;   /* Quita el fondo gris */
+  border: none;              /* Quita el borde por defecto */
+  cursor: pointer;           /* Hace que aparezca la "manito" al pasar el mouse */
+  font-family: inherit;      /* Usa la misma fuente que el resto de la página */
+  outline: none;             /* Quita el recuadro al hacer click */
+  
+  /* --- TUS ESTILOS ORIGINALES --- */
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 20px;
+  margin-right: 20px;
+  letter-spacing: 3px;
+  z-index: 1;
+}
+.buttons button:hover {
     background: #fff;
     color: #272727;
     border-radius: 5px;
   }
 
-  .buttons a span {
+  .buttons button span {
     position: absolute;
     display: block;
   }
 
-  .buttons a span:nth-child(1) {
+  .buttons button span:nth-child(1) {
     top: 0;
     left: -100%;
     width: 100%;
@@ -66,7 +73,7 @@
     }
   }
   
-  .buttons  a span:nth-child(2) {
+  .buttons  button span:nth-child(2) {
     top: -100%;
     right: 0;
     width: 2px;
@@ -86,7 +93,7 @@
     }
   }
   
-  .buttons  a span:nth-child(3) {
+  .buttons  button span:nth-child(3) {
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -106,7 +113,7 @@
     }
   }
   
-  .buttons  a span:nth-child(4) {
+  .buttons  button span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
@@ -182,13 +189,10 @@
         margin-right: 7px;
       }
     
-      .buttons a {
+      .buttons button {
         font-size: 14px;
         padding: 0.4375em 0.5em;
         margin: 10px 5px;
         /* margin-right: 10px; */
       }
-
-      
-
   }
