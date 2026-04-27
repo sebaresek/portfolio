@@ -14,6 +14,7 @@ export const Contact = () => {
   };
   const [formDetails, setFormDetails] = useState(formInitialDetails);
 //   const [buttonText, setButtonText] = useState('Enviar');
+// eslint-disable-next-line no-unused-vars
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
